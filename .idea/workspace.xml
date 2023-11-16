@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f121b11b-0d47-433b-a74e-9b5d05d80ae1" name="Changes" comment="" />
+    <list default="true" id="f121b11b-0d47-433b-a74e-9b5d05d80ae1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +19,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2YF52mMKWaQW4w8CQLA9gc4kwJx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,7 +36,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CodeGym/Module 1/12.thaoTacVoiMang",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/CodeGym/Module 1/btCaculator/style.css",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700108281365</updated>
       <workItem from="1700108282532" duration="1620000" />
+      <workItem from="1700111427366" duration="314000" />
     </task>
     <servers />
   </component>

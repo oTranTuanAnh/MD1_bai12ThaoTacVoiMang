@@ -2,16 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>baiTap</title>
+    <title>daoNguocMang</title>
 </head>
 <body>
 
 <input type="text" id="nhapDL" placeholder="nhập phần tử">
 <button type="button" onclick="themPhanTu()">Add</button>
 <button type="button" onclick="hienThi()">Dipslay</button>
+<button type="button" onclick="daoNguoc()">Dao nguoc</button>
 <br>
 <hr>
 <p id="dips"></p>
+<p id="daoNguoc"></p>
+
+
+
+
 
 <script>
     let arr = [];
@@ -24,15 +30,24 @@
     }
 
     function hienThi() {
-        let e="";
-        for (i=0; i<arr.length; i++) {
-            e = e + "phan tu thu " + (i+1) + " la "+ arr[i] + "<br>";
+        document.getElementById("dips").innerHTML = "mang ban dau: " + arr;
+    }
+
+    function daoNguoc() {
+        let first = 0;
+        let last = arr.length - 1;
+        while (first<last) {
+            let b = arr[first];
+            arr[first] = arr[last];
+            arr[last] = b;
+            first++;
+            last--;
         }
-        document.getElementById("dips").innerHTML = e;
+        document.getElementById("daoNguoc").innerHTML = "mang dao nguoc: " + arr;
 
     }
 
-</script>
 
+</script>
 </body>
 </html>
